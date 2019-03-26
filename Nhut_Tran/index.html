@@ -6,40 +6,42 @@
   <link href="stylesheet.css" rel="stylesheet" type="text/css" />
   <title>Registration Form</title>
 </head>
-
 <body class="body">
   <h1 class="header">Register Here</h1>
   <form>
    <div>
-    <label for="firstName" class="labels">First Name:</label>
-    <input type="text" name="first_name" id="firstName" class="input"/>
+     <fieldset class="field">
+      <legend>Personal details</legend>
+        <label for="firstName" class="labels">First Name:</label>
+        <input type="text" name="first_name" id="firstName" class="input"/>
+        <label for="lastName" class="labels">Last Name:</label>
+        <input type="text" name="last_name" id="lastName" class="input"/>
+        <label for="birthday" class="labels">Date of Birth:</label>
+        <input type="date" name="date_of_birth" id="birthday" class="input"/>
+    </fieldset>
    </div>
    <div>
-    <label for="lastName" class="labels">Last Name:</label>
-    <input type="text" name="last_name" id="lastName" class="input"/>
+     <fieldset class="field">
+       <legend>Address Details</legend>
+        <label for="address" class="labels">Street Address 1:</label>
+        <input type="text" name="street_address" id="address" class="input"/>
+        <label for="address" class="labels">Street Address 2:</label>
+        <input type="text" name="street_address" id="address" class="input"/>
+        <label for="city" class="labels">Town / City:</label>
+        <input type="text" name="city" id="city" class="input"/>
+    </fieldset>
    </div>
    <div>
-    <label for="address" class="labels">Street Address:</label>
-    <input type="text" name="street_address" id="address" class="input"/>
+     <fieldset class="field">
+       <legend>Contact Details</legend>
+        <label for="email" class="labels">Email:</label>
+        <input type="text" name="email_address" id="email" class="input"/>
+        <label for="phone" class="labels">Mobile Number:</label>
+        <input type="text" name="phone_number" id="phone" class="input"/>
+     </fieldset>
    </div>
    <div>
-    <label for="city" class="labels">City:</label>
-    <input type="text" name="city" id="city" class="input"/>
-   </div>
-   <div">
-    <label for="email" class="labels">Email:</label>
-    <input type="text" name="email_address" id="email" class="input"/>
-   </div>
-   <div>
-    <label for="phone" class="labels">Phone Number:</label>
-    <input type="text" name="phone_number" id="phone" class="input"/>
-   </div>
-   <div>
-    <label for="birthday" class="labels">Date of Birth:</label>
-    <input type="date" name="date_of_birth" id="birthday" class="input"/>
-   </div>
-   <div class="button">
-    <input type="submit" value="REGISTER">
+    <input type="submit" value="Click To Register" class="button">
    </div>
   </form>
 </body>
