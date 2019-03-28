@@ -1,0 +1,64 @@
+.test{
+  background-image: url("nayempic99.png");
+  background-size: cover;
+  font-family: arial;
+  background-repeat:no-repeat;
+  background-position: absolute;
+
+
+}
+.regform{
+  text-align: left;
+  top: 50%;
+  left:50%;
+  background-color: white;
+  margin-left: 25%;
+  margin-right:25%;
+  margin-top:5%;
+  margin-bottom:25%;
+  background-color:#1A5276;
+  opacity:0.8;
+  padding:20px;
+  border-radius:5px;
+}
+.main_frame{
+  border:500px;
+  margin:70px;
+}
+.button{
+  padding: 15px;
+  border-radius:10px;
+  margin-left: 130px;
+  width: 200px;
+  margin-top:20px;
+  text-align:center;
+
+}
+.userinput{
+  font-style: absolute;
+  padding:12px;
+  border-radius:5px;
+}
+.place{
+  padding:12px;
+  border-radius:5px;
+}
+.num{
+  padding:10px;
+  border-radius:5px;
+  text-align: left;
+  margin: 5%
+}
+
+.heading {
+  font-size: 50px;
+  text-align:center;
+  color: #FBEEE6;
+}
+.address{
+  padding:15px;
+  border-radius:5px;
+}
+.container{
+  color:white;
+}
