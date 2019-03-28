@@ -1,0 +1,48 @@
+body {
+	background-color: #DCDCDC;
+}
+
+.general {
+	text-align: center; 
+	margin: 100px;
+}
+.formheader{
+	
+	font-size: 28px;
+}
+
+form { 
+	width: 50%;
+	margin: 50px 300px;
+	background-color: #FFFFFF;
+	opacity: 0.8;
+	padding: 100px 0px;
+	font-family: Comic Sans MS;
+
+}
+#name { 
+	width: 175px;
+	padding: 10px;
+	border-radius: 5px;
+	font-family: Comic Sans MS;
+}
+
+#addnmail {
+	width: 380px;
+	padding: 10px;
+	border-radius: 5px;
+	font-family: Comic Sans MS;
+}
+
+#statenphone {
+	padding: 10px;
+	border-radius: 5px;
+	font-family: Comic Sans MS;
+}
+
+#submit { 
+	width: 200px;
+	padding: 10px;
+	border-radius: 5px;
+	font-family: Comic Sans MS;
+}
