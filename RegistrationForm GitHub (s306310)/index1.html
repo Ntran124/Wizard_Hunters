@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration form</title>
+  <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body class="test">
+  <div class="container">
+    <form class="regform">
+      <div class= main_frame>
+        <h1 class="heading">Registration form</h1>
+
+         <label class="num"> Name:<span class="classified">*</span></label>
+      <div>
+        <input type="text" class="userinput" name="firstname" placeholder="Enter First Name">
+        <input type="text" class="userinput" name="lastname" placeholder="Enter Last Name">
+      </div>
+
+      <div>
+        <label class="num">Date of Birth:<span class="classified">*</span></label>
+      </div>
+
+      <div>
+        <input type="date" class="userinput" name="date" placeholder="dd/mm/yyyy">
+      </div>
+
+      <div>
+        <label class="num">Gender:<span class="classified">*</span></label>
+          <input type="radio" name="gender"  placeholder="Male"> Male
+          <input type="radio" name="gender"  placeholder="Female"> Female
+          <input type="radio" name="gender"  placeholder="Other"> Other
+      </div>
+
+      <label class="num">Address:<span class="classified">*</span></label>
+
+      <div>
+        <input type="text" class="address" name="address" placeholder="Enter Your Address ">
+        <input type="text" class="address" name="Suburb" placeholder="Suburb">
+
+        <select class="address">
+           <option>State</option>
+           <option value="ACT">Australian Capital Territory</option>
+           <option value="NSW">New South Wales</option>
+           <option value="VIC">Victoria</option>
+           <option value="QLD">Queensland</option>
+           <option value="WA">Western Australia</option>
+           <option value="SA">South Australia</option>
+           <option value="NT">Northern Territory</option>
+           <option value="TAS">Tasmania</option>
+        </select>
+        <input class="address" type="number" name="postcode" placeholder="Post Code">
+      </div>
+
+
+      <label class=userinput>Phone Number:</label>
+      <div>
+        <input class="place" type="number" name="phone number" placeholder="(+61 000000000)">
+      </div>
+
+      <label class="userinput">E-mail:<span class="num">*</span></label>
+
+       <div>
+         <input type="text" class="place" name="email" placeholder="abcd1234@hotmail.com">
+       </div>
+
+       <div>
+         <button class="button" type="submission">Submit</button>
+       </div>
+
+
+     </div>
+   </div>
+
+
+    </form>
+</body>
+</html>
