@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title> Registration form </title>
   <link href="stylesheet.css" rel="stylesheet" type="text/css">
@@ -7,43 +7,51 @@
 </head>
 <body>
 	<div class = "general">
-		
+
 		<form>
-			<div class = "formheader"> Register Here</div> <br> <br>
+			<div class = "formheader">Register Here</div>
 			<fieldset class = "field">
-				<legend> Personal details </legend> <br>
-					<input type = "text" placeholder = "First Name" name = "" class = "name"> <br><br>
-					<input type = "text" placeholder = "Surename" name = "" class = "name"> <br><br>
+				<legend>Personal details</legend> <br>
+          <label for="firstname" class="label">First Name:</label>
+					<input type = "text" placeholder = "First Name" class = "name" id="firstname">
+          <label for="surname" class="label">Surname:</label>
+					<input type = "text" placeholder = "Surname" class = "name" id="surname">
+          <label for="dob" class="label">Date of birth:</label>
+			    <input type = "text" placeholder="DD/MM/YYYY" class = "name" id="dob">
 			</fieldset>
-			<fieldset>
+			<fieldset class ="field">
 				<legend> Address Details </legend><br>
-				
-					<input type = "text" placeholder = "Street Address 1" name = "" class = "addnmail"> <br><br>
-					<input type = "text" placeholder = "Street Address 2" name = "" class = "addnmail"> <br><br>
-					<select class = "statenphone">						
+          <label for="strAddr1" class="label">Street Address 1:</label>
+					<input type = "text" placeholder = "Street Address 1" class = "addnmail" id="strAddr1"> <br><br>
+          <label for="strAddr2" class="label">Street Address 2:</label>
+					<input type = "text" placeholder = "Street Address 2" class = "addnmail" id="strAddr2"> <br><br>
+          <label for="statePost" class="label2">State / Postcode:</label>
+					<select class = "statenphone" id="statePost">
 						<option>NSW</option>
 						<option>QLD</option>
 						<option>SA</option>
 						<option>TAS</option>
+            <option>VIC</option>
 						<option>WA</option>
 						<option>NT</option>
 						<option>ACT</option>
 					</select>
-				
-					<input type = "number" placeholder = "Postcode" name = "" class = "statenphone"> <br><br>
+					<input type = "number" placeholder = "Postcode" class = "statenphone" id="postcode"> <br><br>
 			</fieldset>
-			<fieldset>
+			<fieldset class ="field">
 				<legend> Contact Details </legend><br>
-					<input type = "email" placeholder = "Email" name = "" class = "addnmail"> <br><br>
+        <label for="email" class="label2">Email Address:</label>
+					<input type = "email" placeholder = "Email" class = "addnmail" id="email"> <br><br>
+          <label for="mobile" class="label2">Mobile Number:</label>
 						<select class = "statenphone">
 							<option>+61</option>
 						</select>
-					<input type = "number" placeholder = "Phone Number" name = "" class= "statenphone"> <br><br>
-				
-			
+					<input type = "number" placeholder = "Mobile Number" class= "statenphone" id="mobile"> <br><br>
+      </fieldset>
+       <div>
+          <input type="submit" value="Submit" class="button">
+       </div>
 		</form>
   </div>
 </body>
 </html>
-
-
