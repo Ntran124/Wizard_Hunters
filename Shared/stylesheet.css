@@ -1,27 +1,30 @@
 body {
-	background-color: #DCDCDC;
+	background-image: url("world2.jpg");
+	background-repeat:no-repeat;
+	background-position: absolute;
+	background-size: cover;
 }
 
 .general {
-	text-align: center; 
+	text-align: center;
 	margin: 100px;
 }
 .formheader{
-	
-	font-size: 28px;
+  padding-bottom: 70px;
+	font-size: 35px;
 }
 
-form { 
-	width: 50%;
-	margin: 50px 300px;
-	background-color: #FFFFFF;
-	opacity: 0.8;
+form {
+	width: 60%;
+	margin: 50px auto;
+	background-color: white;
+	opacity: 0.9;
 	padding: 100px 0px;
 	font-family: Comic Sans MS;
 
 }
-.name { 
-	width: 380px;
+.name {
+	width: 150px;
 	padding: 10px;
 	border-radius: 5px;
 	font-family: Comic Sans MS;
@@ -38,11 +41,51 @@ form {
 	padding: 10px;
 	border-radius: 5px;
 	font-family: Comic Sans MS;
+
 }
 
-.submit { 
+.submit {
 	width: 200px;
 	padding: 10px;
 	border-radius: 5px;
 	font-family: Comic Sans MS;
+}
+
+
+.button {
+	text-align: center;
+	font-size: 25px;
+	margin-top: 40px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #5495ff;
+	border: none;
+	border-radius: 10px;
+	width: 300px;
+}
+
+.button:hover {
+	background-color: #2678ff
+}
+
+.label {
+	padding-left: 20px;
+}
+
+.field {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-top: 30px;
+}
+
+.label2 {
+	margin-left: 38px;
+}
+
+#postcode {
+	margin-right: 115px;
+}
+
+#mobile {
+	margin-right: 120px;
 }
